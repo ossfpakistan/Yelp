@@ -1,2 +1,2 @@
 # yelp
-Yelp Application using Postgresql, Express, React and Node.
+Yelp clone application using Postgresql, Express, React and Node.
