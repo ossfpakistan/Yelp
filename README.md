@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Code-Synchronicity/yelp/blob/main/imgs/yelp-logo.png">
+<img src="https://github.com/Code-Synchronicity/yelp/blob/main/imgs/yelp-logo.png" width="350" height="150">
 </p>
 <hr>
 </br>
