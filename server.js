@@ -11,7 +11,13 @@ app.listen(port, () => {
 });
 
 //setting up API for fetching data
-// fetching a single resturant
+
+// fetching a single restaurant
+app.get("/api/v1/restaurants/:resturantid", (req, res) => {
+    console.log(req.params);
+});
+
+// fetching all restaurant
 app.get("/api/v1/resturants", (req, res) => {
     res.status(200).json({
         status: "success",
