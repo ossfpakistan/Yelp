@@ -4,6 +4,8 @@
 
 //Creating Environmental variable 
 const express = require("express");
+const morgan = require("morgan");
+const app = express();
 
 //Setting up middlewares 
 const app = express();
