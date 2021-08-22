@@ -1,7 +1,13 @@
 //Using express JS
 //Making express models
 
+
+//Creating Environmental variable 
 const express = require("express");
+
+//Setting up middlewares 
+const app = express();
+
 
 //making port for the live
 const port = 3005;
@@ -19,6 +25,7 @@ app.get("/api/v1/restaurants/:resturantid", (req, res) => {
 
 // fetching all restaurant
 app.get("/api/v1/resturants", (req, res) => {
+    console.log("route handler ran")
     res.status(200).json({
         status: "success",
         data: {
