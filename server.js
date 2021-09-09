@@ -43,6 +43,12 @@ app.get("/api/v1/restaurants/:resturantid", (req, res) => {
     console.log(req.params);
 });
 
+//Error Handling
+} catch (err) {
+    console.log(err);
+}
+});
+
 // fetching all restaurant
 app.get("/api/v1/resturants", (req, res) => {
     console.log("route handler ran")
