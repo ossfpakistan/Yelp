@@ -1,11 +1,11 @@
 import React from 'react'
 
-const updatepage = () => {
+const home = () => {
     return (
         <div>
-              update Page
+            Home
         </div>
     )
 }
 
-export default updatepage
+export default home
